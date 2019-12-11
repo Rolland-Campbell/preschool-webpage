@@ -1,10 +1,9 @@
 <template>
   <div class="home container-fluid">
     <div class="row">
-      <HomeCarousel />
-    </div>
-    <div class="row justify-content-center">
-      <img alt="Vue logo" src="../assets/logo.png" />
+      <div class="col-4 offset-4">
+        <HomeCarousel />
+      </div>
     </div>
     <div class="row justify-content-center">
       <h1>Welcome to the Treehouse Preschool</h1>
