@@ -9,6 +9,7 @@
         <router-link to="/about">About Our Classes</router-link>|
         <router-link to="/parentHandbook">Parent Handbook</router-link>|
         <router-link to="/daily-schedule">Daily Schedule</router-link>|
+        <router-link to="/rates">Rates</router-link>|
 
       </div>
       <router-view />
