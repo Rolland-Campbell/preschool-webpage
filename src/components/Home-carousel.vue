@@ -3,13 +3,13 @@
     <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel">
       <div class="carousel-inner">
         <div class="carousel-item active">
-          <img src="../assets/example3.png" class="d-block photos" alt="..." />
+          <img src="../assets/Valteach.png" class="d-block photos" alt="..." />
         </div>
         <div class="carousel-item">
-          <img src="../assets/classroom.png" class="d-block photos" alt="classroom" />
+          <img src="../assets/noodles.png" class="d-block photos" alt="classroom" />
         </div>
         <div class="carousel-item">
-          <img src="../assets/example2.png" class="d-block photos" alt="..." />
+          <img src="../assets/playingblocks.png" class="d-block photos" alt="..." />
         </div>
       </div>
       <a class="carousel-control-prev" href="#carouselExampleFade" role="button" data-slide="prev">

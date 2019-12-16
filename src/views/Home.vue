@@ -34,7 +34,7 @@ export default {
 <style scoped>
 .home {
   background-color: cornflowerblue;
-  height: 100%;
+  height: 100vh;
 }
 
 .homeText {

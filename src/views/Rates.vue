@@ -59,7 +59,7 @@ export default {
 <style scoped>
 .rates {
   background-color: cornflowerblue;
-  height: 100%;
+  height: 100%
 }
 
 .ratesText {

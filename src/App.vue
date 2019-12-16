@@ -10,7 +10,8 @@
         <router-link to="/parentHandbook">Parent Handbook</router-link>|
         <router-link to="/daily-schedule">Daily Schedule</router-link>|
         <router-link to="/rates">Rates</router-link>|
-
+        <router-link to="/contact">Contact Us</router-link>|
+        <router-link to="/meetUs">Our Staff</router-link>
       </div>
       <router-view />
     </div>
@@ -28,6 +29,7 @@
 
 #nav {
   padding: 30px;
+  justify-content: space-between;
 }
 
 #nav a {
@@ -53,5 +55,6 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  font-size: small;
 }
 </style>
