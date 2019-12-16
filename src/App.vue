@@ -6,7 +6,10 @@
       </div>
       <div class="col-12 col-md-6 navCol" id="nav">
         <router-link to="/">Home</router-link>|
-        <router-link to="/about">About</router-link>
+        <router-link to="/about">About Our Classes</router-link>|
+        <router-link to="/parentHandbook">Parent Handbook</router-link>|
+        <router-link to="/daily-schedule">Daily Schedule</router-link>|
+
       </div>
       <router-view />
     </div>

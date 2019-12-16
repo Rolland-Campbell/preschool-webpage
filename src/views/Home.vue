@@ -1,15 +1,22 @@
 <template>
   <div class="home container-fluid">
-    <div class="row">
-      <div class="col-12 col-md-4">
+    <main class="row">
+      <div class="col-md-3"></div>
+      <div class="col-12 col-md-6">
         <HomeCarousel />
       </div>
-      <div class="col-12 col-md-8 introText">
-        <p
-          class="text-white p-3"
-        >Welcome to the Treehouse Learning Center! We have a nuturing and loving environment provided for your child. We look forward to spending time with your child. Our curriculm is setup to get them be prepared for their journey of today's education system. We pride ourselves in giving our students a rich education in a carefree loving space.</p>
+      <div class="col-md-3"></div>
+      <div class="col-8 offset-2 homeText">
+        <p>Our program is based on current research and imperically tested teaching practices in Reggio Emillia. This is a city in Italy well-known for it's revolutionary ideas on how to help children reach their maximum potential. We present an inquiry based and student led curriculum that exceeds current state and federal education standards.</p>
+        <p>Our goal is to exceed your expectations with our superior approach to teaching while giving your child the opportunity to be extraordinary.</p>
+        <p>We offer full day and half day classes for children aged 3 months - 5 years. Read About our available classes here.<p>
+        <p><u><b>Class Size:</b></u></p>
+        <p>Our class size is smaller than the recommended state standards. Our maximum enrollment for the center is 36 and we have four to five teachers each day.</p>
+        <p><u><b>Hours:</b></u></p>
+        <p>Monday-Friday 6:30am - 6:00 pm</p>
+        <p>Yes! We accept ICCP</p>
       </div>
-    </div>
+    </main>
   </div>
 </template>
 
@@ -30,8 +37,9 @@ export default {
   height: 100%;
 }
 
-.introText {
+.homeText {
   justify-content: center;
   align-self: center;
+  color: white;
 }
 </style>
