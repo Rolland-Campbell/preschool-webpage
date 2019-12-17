@@ -4,7 +4,7 @@
       <div class="col-8 offset-2 meetText">
         <div class="row">
           <div class="col-12">
-            <!-- top left card -->
+            <!-- top card -->
             <div class="card mb-3">
               <div class="row no-gutters">
                 <div class="col-md-4">
@@ -25,9 +25,133 @@
               </div>
             </div>
           </div>
-          <div class="col-12"></div>
+          <div class="col-12">
+          <!-- card 2 -->
+          <div class="card mb-3">
+              <div class="row no-gutters">
+                <div class="col-md-4">
+                  <img src="../assets/michelle.png" class="card-img" alt="owner pic">
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title">Michelle Metcalf Flennoy</h5>
+                    <p class="card-text">Teacher</p>
+                    <p>Hi, I am Michelle ... </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12">
+          <!-- card 3 -->
+          <div class="card mb-3">
+              <div class="row no-gutters">
+                <div class="col-md-4">
+                  <img src="../assets/Tari.png" class="card-img" alt="owner pic">
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title">Tari White</h5>
+                    <p class="card-text">Teacher</p>
+                    <p>Hi, I am Tari..</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          <!-- card 4 -->
+          <div class="card mb-3">
+              <div class="row no-gutters">
+                <div class="col-md-4">
+                  <img src="../assets/Briona.png" class="card-img" alt="owner pic">
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title">Briona Flennoy</h5>
+                    <p class="card-text">Teacher</p>
+                    <p>Hi, I am Briona..</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- card 5 -->
+          <div class="card mb-3">
+              <div class="row no-gutters">
+                <div class="col-md-4">
+                  <img src="../assets/Aryka.png" class="card-img" alt="owner pic">
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title">Aryka Flennoy</h5>
+                    <p class="card-text">Teacher</p>
+                    <p>Hi, I am Aryka..</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- card 6 -->
+          <div class="card mb-3">
+              <div class="row no-gutters">
+                <div class="col-md-4">
+                  <img src="../assets/teacherNone.png" class="card-img" alt="owner pic">
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title">Kobe</h5>
+                    <p class="card-text">Teacher</p>
+                    <p>Hi, I am Kobe..</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- card 7 -->
+          <div class="card mb-3">
+              <div class="row no-gutters">
+                <div class="col-md-4">
+                  <img src="../assets/teacherNone.png" class="card-img" alt="owner pic">
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title">Miah</h5>
+                    <p class="card-text">Teacher</p>
+                    <p>Hi, I am Miah..</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+             <!-- card 8 -->
+          <div class="card mb-3">
+              <div class="row no-gutters">
+                <div class="col-md-4">
+                  <img src="../assets/teacherNone.png" class="card-img" alt="owner pic">
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title">Ashley</h5>
+                    <p class="card-text">Teacher</p>
+                    <p>Hi, I am Ashley..</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+             <!-- card 9 -->
+          <div class="card mb-3">
+              <div class="row no-gutters">
+                <div class="col-md-4">
+                  <img src="../assets/teacherNone.png" class="card-img" alt="owner pic">
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title">Britney</h5>
+                    <p class="card-text">Teacher</p>
+                    <p>Hi, I am Britney..</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- add card above here -->
+          </div>
+          </div>
         </div>
-      </div>
     </main>
   </div>
 </template>
@@ -43,7 +167,7 @@ export default {
 <style scoped>
 .meetUs {
   background-color: cornflowerblue;
-  height: 100vh;
+  height: 100%;
 }
 
 .meetText {

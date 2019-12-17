@@ -19,7 +19,7 @@
         <p><b><u>Oaks (Pre - Kindergarten)</u></b></p>
         <p>This class will prepare your child for Kindergarten!  We offer new and fun activites every day of the week.  The class keeps your child busy all day long, but we focus on acedemics and Kindergarten readiness in the morning for children who only participate in the half day program.  We follow the state standards to make sure each child will meet or exceed the expectations for Kindergarten.  Your child will spend time each day focusing on early literacy skills, math/science experiments, music, and dance, as well as a myriad of other fun and developmentally appropriate activities.  All classes have hands-on activities that keep the children engaged and intrigued. </p>
 
-        <p>Visit our Daily Schedule to see what a typical day may look like for your child</p>
+        <p>Visit our <router-link to="/daily-schedule" class="linkColor"><u>Daily Schedule</u></router-link> to see what a typical day may look like for your child</p>
       </div>
     </main>
   </div>
@@ -46,5 +46,9 @@ export default {
   justify-content: center;
   align-self: center;
   color: white;
+}
+
+.linkColor {
+  color:white;
 }
 </style>

@@ -1,11 +1,11 @@
 <template>
   <div class="home container-fluid">
     <main class="row">
-      <div class="col-md-3"></div>
+      <div class="col-12 col-md-3"></div>
       <div class="col-12 col-md-6">
         <HomeCarousel />
       </div>
-      <div class="col-md-3"></div>
+      <div class="col-12 col-md-3"></div>
       <div class="col-8 offset-2 homeText">
         <p>Our program is based on current research and imperically tested teaching practices in Reggio Emillia. This is a city in Italy well-known for it's revolutionary ideas on how to help children reach their maximum potential. We present an inquiry based and student led curriculum that exceeds current state and federal education standards.</p>
         <p>Our goal is to exceed your expectations with our superior approach to teaching while giving your child the opportunity to be extraordinary.</p>
@@ -16,6 +16,7 @@
         <p>Monday-Friday 6:30am - 6:00 pm</p>
         <p>Yes! We accept ICCP</p>
       </div>
+      <div class="col-12 toe"></div>
     </main>
   </div>
 </template>
@@ -34,12 +35,16 @@ export default {
 <style scoped>
 .home {
   background-color: cornflowerblue;
-  height: 100vh;
+  height: 100%;
 }
 
 .homeText {
   justify-content: center;
   align-self: center;
   color: white;
+}
+
+.toe {
+  height: 40vh
 }
 </style>

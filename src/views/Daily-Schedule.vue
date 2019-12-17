@@ -15,7 +15,7 @@
     <tr>
       <th scope="col">Time</th>
       <th scope="col">Sprouts</th>
-      <th scope="col">Saplings</th>
+      <th scope="col">Acorns</th>
       <th scope="col">Oaks</th>
     </tr>
   </thead>

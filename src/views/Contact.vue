@@ -3,8 +3,10 @@
     <main class="row">
       <div class="col-md-3"></div>
       <div class="col-8 offset-2 contactText">
+        <img src="../assets/preschool.png" alt="preschool" class="preschoolPic">
+        <img src="../assets/map.png" alt="map" class="mapPic">
         <p><u><b>Mailing Address</b></u></p>
-        <p>pending</p>
+        <p>1831 E Overland Rd. Meridian, ID. 83642</p>
         <p><u><b>Email Address:</b></u></p>
         <p>tana@thetreehousepreschool.com</p>
         <p><u><b>Telephone Number</b></u></p>
@@ -25,13 +27,24 @@ export default {
 <style scoped>
 .contact {
   background-color: cornflowerblue;
-  height: 100vh;
+  height: 100%;
 }
 
 .contactText {
   justify-content: center;
   align-self: center;
   color: white;
-  padding-top: 10px;
+  padding-top: 20px;
+}
+
+.preschoolPic {
+  height: 400px;
+  width: 800px;
+  padding: 5px;
+}
+.mapPic{
+  height: 400px;
+  width: 800px;
+  padding: 5px;
 }
 </style>

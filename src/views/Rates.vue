@@ -19,13 +19,13 @@
   </thead>
   <tbody>
     <tr>
-      <th scope="row">Acorns</th>
+      <th scope="row">Sprouts</th>
       <td>$500 / month</td>
       <td>$25 / day</td>
       <td>$15 / day</td>
     </tr>
     <tr>
-      <th scope="row">Sprouts</th>
+      <th scope="row">Acorns</th>
       <td>$500 / month</td>
       <td>$25 / day</td>
       <td>$15 / day</td>
@@ -39,10 +39,11 @@
      </tbody>
 </table>
 <div class="col-12 text-white text-center">
-<p>Acorns (3 months- 2 years)</p>
 <p>Sprouts (2-3 Year Old Preschool)</p>
+<p>Acorns (3 months- 2 years)</p>
 <p>Oaks (Pre-Kindergarten)</p>
 </div>
+<div class="row toe"></div>
       </div>
     </main>
   </div>
@@ -67,5 +68,9 @@ export default {
   align-self: center;
   color: white;
   padding-top: 10px;
+}
+
+.toe {
+  height: 40vh
 }
 </style>

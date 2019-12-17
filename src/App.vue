@@ -1,10 +1,11 @@
 <template>
   <div id="app container-fluid">
     <div class="row">
-      <div class="col-12 col-md-6 logoCol">
-        <img src="./assets/Treehouselogo.png" class="logo" alt="..." />
+      <div class="col-12 col-md-3 logoCol">
+      <router-link to="/"><img src="./assets/Treehouselogo.png" class="logo" alt="..." />
+</router-link>
       </div>
-      <div class="col-12 col-md-6 navCol" id="nav">
+      <div class="col-12 col-md-9 navCol" id="nav">
         <router-link to="/">Home</router-link>|
         <router-link to="/about">About Our Classes</router-link>|
         <router-link to="/parentHandbook">Parent Handbook</router-link>|
@@ -12,6 +13,7 @@
         <router-link to="/rates">Rates</router-link>|
         <router-link to="/contact">Contact Us</router-link>|
         <router-link to="/meetUs">Our Staff</router-link>
+        
       </div>
       <router-view />
     </div>
@@ -55,6 +57,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: small;
+  font-size: medium;
+  overflow: auto;
 }
 </style>

@@ -39,7 +39,7 @@ export default {
 
 <style scoped>
 .photos {
-  height: 300px;
+  height: 400px;
   width: 100%;
 }
 </style>
