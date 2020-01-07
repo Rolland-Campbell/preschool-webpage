@@ -1,23 +1,35 @@
 <template>
-  <div class="contact container-fluid">
-    <main class="row">
-      <div class="col-md-3"></div>
-      <div class="col-8 offset-2 contactText">
-        <img src="../assets/preschool.png" alt="preschool" class="preschoolPic">
-        <img src="../assets/map.png" alt="map" class="mapPic">
-        <p><u><b>Mailing Address</b></u></p>
+  <main class="contact container-fluid">
+    <div class="row">
+      <div class="col-12 contactText">
+        <img src="../assets/preschool.png" alt="preschool" />
+        <img src="../assets/map.png" alt="map" />
+        <p>
+          <u>
+            <b>Mailing Address</b>
+          </u>
+        </p>
         <p>1831 E Overland Rd. Meridian, ID. 83642</p>
-        <p><u><b>Email Address:</b></u></p>
-        <p>tana@thetreehousepreschool.com</p>
-        <p><u><b>Telephone Number</b></u></p>
+        <br />
+        <p>
+          <u>
+            <b>Email Address:</b>
+          </u>
+        </p>
+        <a href="mailto:tana@thetreehousepreschool.com">tana@thetreehousepreschool.com</a>
+        <p>
+          <br />
+          <u>
+            <b>Telephone Number</b>
+          </u>
+        </p>
         <p>(208)895-7964</p>
       </div>
-    </main>
-  </div>
+    </div>
+  </main>
 </template>
 
 <script>
-
 export default {
   name: "contact",
   components: {}
@@ -25,26 +37,26 @@ export default {
 </script>
 
 <style scoped>
+a {
+  color: white;
+}
+
 .contact {
   background-color: cornflowerblue;
   height: 100%;
 }
 
 .contactText {
-  justify-content: center;
-  align-self: center;
+  text-align: center;
   color: white;
   padding-top: 20px;
 }
 
-.preschoolPic {
-  height: 400px;
-  width: 800px;
+img {
+  height: 300px;
+  max-width: 100%;
   padding: 5px;
-}
-.mapPic{
-  height: 400px;
-  width: 800px;
-  padding: 5px;
+  margin-left: auto;
+  margin-right: auto;
 }
 </style>

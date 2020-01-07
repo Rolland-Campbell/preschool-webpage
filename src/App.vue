@@ -2,25 +2,46 @@
   <div id="app container-fluid">
     <div class="row">
       <div class="col-12 col-md-3 logoCol">
-      <router-link to="/"><img src="./assets/Treehouselogo.png" class="logo" alt="..." />
-</router-link>
+        <router-link to="/">
+          <img src="./assets/Treehouselogo.png" class="logo" alt="..." />
+        </router-link>
       </div>
-      <div class="col-12 col-md-9 navCol" id="nav">
-        <router-link to="/">Home</router-link>|
-        <router-link to="/about">About Our Classes</router-link>|
-        <router-link to="/parentHandbook">Parent Handbook</router-link>|
-        <router-link to="/daily-schedule">Daily Schedule</router-link>|
-        <router-link to="/rates">Rates</router-link>|
-        <router-link to="/contact">Contact Us</router-link>|
-        <router-link to="/meetUs">Our Staff</router-link>
-        
-      </div>
+      <nav class="navbar navbar-expand-lg navbar-light bg-white">
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <router-link to="/">Home</router-link>
+            <router-link to="/about">About Our Classes</router-link>
+            <router-link to="/parentHandbook">Parent Handbook</router-link>
+            <router-link to="/daily-schedule">Daily Schedule</router-link>
+            <router-link to="/rates">Rates</router-link>
+            <router-link to="/contact">Contact Us</router-link>
+            <router-link to="/meetUs">Our Staff</router-link>
+          </ul>
+        </div>
+      </nav>
+
       <router-view />
     </div>
   </div>
 </template>
 
 <style>
+.navbar-nav > a {
+  padding: 20px;
+  color: black;
+}
 #app {
   font-family: "Avenir", Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
