@@ -10,14 +10,12 @@
         <p class="aboutIntro">All of our classes have hands-on activities that are developmentally appropriate for each stage of your young child's life. Our specially trained teachers plan intentional activities each day designed to help your child grow socially and cognitively. Be sure to visit our Daily Schedule to get a great idea of what your child's day will look like.</p>
 
         <div id="accordion" class="cardBorder">
-          <div class="card">
+          <div class="card"  data-toggle="collapse" data-target="#collapseOne">
             <div class="card-header" id="headingOne">
               <h5 class="mb-0">
                 <img src="../assets/sprout.png" class="icons" alt="sprout" />
                 <button
                   class="btn btn-link"
-                  data-toggle="collapse"
-                  data-target="#collapseOne"
                   aria-expanded="false"
                   aria-controls="collapseOne"
                 >Sprouts (15 months - 2 years)</button>
@@ -37,14 +35,12 @@
               </div>
             </div>
           </div>
-          <div class="card">
+          <div class="card" data-toggle="collapse" data-target="#collapseTwo">
             <div class="card-header" id="headingTwo">
               <h5 class="mb-0">
                 <img src="../assets/acorn.png" class="icons" alt="acorn" />
                 <button
                   class="btn btn-link collapsed"
-                  data-toggle="collapse"
-                  data-target="#collapseTwo"
                   aria-expanded="false"
                   aria-controls="collapseTwo"
                 >Acorns (2 - 3 Year Old Preschool)</button>
@@ -62,14 +58,12 @@
         <p class="collapseText">We keep the day interesting by moving to different rooms throughout the day. The children do not spend the bulk of their time in any one classroom.</p></p></div>
             </div>
           </div>
-          <div class="card">
+          <div class="card" data-toggle="collapse" data-target="#collapseThree">
             <div class="card-header" id="headingThree">
               <h5 class="mb-0">
                 <img src="../assets/oak.png" class="icons" alt="oaks" />
                 <button
                   class="btn btn-link collapsed"
-                  data-toggle="collapse"
-                  data-target="#collapseThree"
                   aria-expanded="false"
                   aria-controls="collapseThree"
                 >Oaks (Pre - Kindergarten)</button>

@@ -2,10 +2,12 @@
   <div class="daily-schedule container-fluid">
     <main class="row">
       <div class="col-md-3"></div>
-      <div class="col-12 col-md-6">
+      <div class="col-12 col-md-6 carouselIndex">
         <DailyScheduleCarousel />
       </div>
-      <div class="col-md-3"></div>
+      <div class="col-md-3 moveOwl">
+        <img src="../assets/littleowl.png" class="littleOwl" alt="owl" />
+      </div>
       <div class="col-8 offset-2 dailyText mt-3">
         <p>We use a play based curriculum that focuses on each students needs and developmental abilities. In this sensory activity we are waking up the mind by touching and manipulating squishy spaghetti! We are developing fine motor skills by using the tongs and working on our communication skills by working in a group.</p>
       </div>
@@ -166,5 +168,21 @@ export default {
 
 .tableText {
   color: white;
+}
+
+.littleOwl {
+  margin-top: 100px;
+  height: 200px;
+  width: 200px;
+  transform: rotate(45deg);
+}
+
+.moveOwl {
+  margin-left: -70px;
+  z-index: 0;
+}
+
+.carouselIndex {
+  z-index: 1;
 }
 </style>

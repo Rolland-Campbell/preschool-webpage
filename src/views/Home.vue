@@ -54,10 +54,10 @@ export default {
 .homeText {
   justify-content: center;
   align-self: center;
-  color: white;
+  color: black;
   background-color: cornflowerblue;
   border-radius: 20px;
-  padding: 10px;
+  padding: 20px;
 }
 
 .toe {
