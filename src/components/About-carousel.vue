@@ -1,5 +1,5 @@
 <template>
-  <div class="about-carousel p-3">
+  <div class="about-carousel mt-3">
     <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel">
       <div class="carousel-inner">
         <div class="carousel-item active">
@@ -39,7 +39,15 @@ export default {
 
 <style scoped>
 .photos {
+  border-radius: 15px;
   height: 400px;
   width: 100%;
+}
+
+.about-carousel {
+  border: 6px;
+  border-color: cornflowerblue;
+  border-style: solid;
+  border-radius: 20px;
 }
 </style>

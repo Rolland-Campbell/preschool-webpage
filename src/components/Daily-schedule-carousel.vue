@@ -1,5 +1,5 @@
 <template>
-  <div class="daily-schedule-carousel p-3">
+  <div class="daily-schedule-carousel mt-4">
     <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel">
       <div class="carousel-inner">
         <div class="carousel-item active">
@@ -41,5 +41,13 @@ export default {
 .photos {
   height: 300px;
   width: 100%;
+  border-radius: 15px;
+}
+
+.daily-schedule-carousel {
+  border: 6px;
+  border-color: white;
+  border-style: solid;
+  border-radius: 20px;
 }
 </style>
