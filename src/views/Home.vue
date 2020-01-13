@@ -46,7 +46,7 @@ export default {
   background-color: cornflowerblue;
   height: 100%;
   background-image: url(../assets/owlbackground.jpg);
-  background-position: center;
+  background-position: bottom;
   background-repeat: no-repeat;
   background-size: cover;
 }

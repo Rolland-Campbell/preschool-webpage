@@ -109,7 +109,7 @@ export default {
   height: 100%;
   background-image: url(../assets/owlbackground.jpg);
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: bottom;
   background-size: cover;
 }
 
