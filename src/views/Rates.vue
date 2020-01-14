@@ -11,7 +11,7 @@
         <p>Our classes are full of acedemic and engaging activities Monday through Friday. We offer a full-day, year round preschool program. Our curriculum focuses on state education standards from 9 am- 12 pm in order to ensure success for students who only participate in the half day program.</p>
         <p>Parents who only need part-time care or wish only to participate in the half-day preschool program may choose the days of the week that work best for their family (please call to reserve your days). Our preschool and pre-K classes run year round, 5-days each week.</p>
       </div>
-      <div class="col-10 offset-1">
+      <div class="col-10 offset-1 mt-5">
         <table class="table ratesText">
           <thead>
             <tr>
@@ -42,12 +42,18 @@
             </tr>
           </tbody>
         </table>
-        <div class="col-12 text-white text-center">
-          <p>Sprouts (2-3 Year Old Preschool)</p>
-          <p>Acorns (3 months- 2 years)</p>
-          <p>Oaks (Pre-Kindergarten)</p>
+      </div>
+      <div class="col-3"></div>
+      <div class="col-6 text-white text-center mt-5">
+        <p>Sprouts (2-3 Year Old Preschool)</p>
+        <p>Acorns (3 months- 2 years)</p>
+        <p>Oaks (Pre-Kindergarten)</p>
+      </div>
+      <div class="col-3"></div>
+      <div class="row circle">
+        <div class="col mt-5 mb-5">
+          <img src="../assets/owlMoon.jpg" class="bottomOwls" />
         </div>
-        <div class="row toe"></div>
       </div>
     </main>
   </div>
@@ -73,7 +79,14 @@ export default {
   padding-top: 10px;
 }
 
-.toe {
-  height: 40vh;
+.bottomOwls {
+  height: 300px;
+  width: 300px;
+  border-radius: 50%;
+}
+
+.circle {
+  justify-content: center;
+  margin: auto;
 }
 </style>

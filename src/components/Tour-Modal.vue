@@ -11,7 +11,7 @@
               class="form-control"
               id="name"
               placeholder="Full Name"
-              v-model="name"
+              v-model="templateParams.name"
             />
           </div>
           <div class="form-group">
@@ -22,7 +22,7 @@
               id="exampleInputEmail1"
               aria-describedby="emailHelp"
               placeholder="Enter email"
-              v-model="email"
+              v-model="templateParams.email"
             />
             <small
               id="emailHelp"
@@ -36,7 +36,7 @@
               class="form-control"
               id="kidsName"
               placeholder="Child's Name"
-              v-model="child"
+              v-model="templateParams.child"
             />
           </div>
           <div class="form-group">
@@ -48,7 +48,7 @@
               id="tel"
               maxlength="12"
               placeholder="Phone Number 123-456-7890"
-              v-model="phone"
+              v-model="templateParams.phone"
             />
             <label for="start" class="mt-4 mr-4">What day works for you?</label>
             <input
@@ -57,17 +57,29 @@
               name="trip-start"
               min="2020-01-01"
               max="2030-12-31"
-              v-model="date"
+              v-model="templateParams.date"
             />
             <br />
             <label class="mt-4 mr-4" for="appt">Choose a time that works for you</label>
-            <input type="time" id="appt" name="appt" min="08:00" max="18:00" v-model="time" />
+            <input
+              type="time"
+              id="appt"
+              name="appt"
+              min="08:00"
+              max="18:00"
+              v-model="templateParams.time"
+            />
             <br />
             <small>Nap time is from 12 - 3. Please choose a time before or after.</small>
           </div>
         </form>
         <div class="modal-footer">
-          <button type="button" class="btn btn-primary">Send Request</button>
+          <button
+            type="button"
+            class="btn btn-primary"
+            @click.prevent="requestTour()"
+            data-dismiss="modal"
+          >Send Request</button>
           <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
         </div>
       </div>
@@ -82,16 +94,21 @@ export default {
   props: ["id"],
   data() {
     return {
-      name: "",
-      email: "",
-      phone: 0,
-      date: 0,
-      time: 0
+      templateParams: {}
     };
   },
   computed: {},
   methods: {
-    requestTour() {}
+    requestTour() {
+      emailjs.send("gmail", "template_xaCzjuqB", this.templateParams).then(
+        function(response) {
+          alert("SUCCESS! Email sent", response.status, response.text);
+        },
+        function(error) {
+          alert("FAILED...", error);
+        }
+      );
+    }
   },
   components: {}
 };
