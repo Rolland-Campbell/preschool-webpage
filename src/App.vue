@@ -28,14 +28,33 @@
             <router-link to="/rates">Rates</router-link>
             <router-link to="/contact">Contact Us</router-link>
             <router-link to="/meetUs">Our Staff</router-link>
+            <button
+              class="btn btn-primary m-2"
+              data-toggle="modal"
+              data-target="#tour-modal"
+            >Request a Tour</button>
           </ul>
         </div>
       </nav>
 
       <router-view />
     </div>
+    <TourModal id="tour-modal" />
   </div>
 </template>
+
+<script>
+import TourModal from "./components/Tour-Modal";
+export default {
+  name: "app",
+  data() {
+    return {};
+  },
+  computed: {},
+  methods: {},
+  components: { TourModal }
+};
+</script>
 
 <style>
 .navbar-nav > a {
