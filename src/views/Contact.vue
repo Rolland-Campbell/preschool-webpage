@@ -26,6 +26,7 @@
         <p>(208)895-7964</p>
       </div>
     </div>
+    <div class="row toe"></div>
   </main>
 </template>
 
@@ -58,5 +59,9 @@ img {
   padding: 5px;
   margin-left: auto;
   margin-right: auto;
+}
+
+.toe {
+  height: 40vh;
 }
 </style>
