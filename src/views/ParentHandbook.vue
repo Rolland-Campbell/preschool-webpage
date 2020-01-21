@@ -229,13 +229,23 @@ export default {
 .parentHandbook {
   background-color: cornflowerblue;
   height: 100%;
+  background-image: url(../assets/bubbles.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .handbookText {
+  background-color: white;
+  border-radius: 20px;
   justify-content: center;
   align-self: center;
-  color: white;
+  color: black;
   padding-top: 10px;
+}
+
+.btn-link {
+  color: black;
 }
 
 .owlPic {

@@ -8,10 +8,10 @@
       <div class="col-md-3 moveOwl">
         <img src="../assets/littleowl.png" class="littleOwl" alt="owl" />
       </div>
-      <div class="col-8 offset-2 dailyText mt-3">
+      <div class="col-8 offset-2 dailyText mt-5">
         <p>We use a play based curriculum that focuses on each students needs and developmental abilities. In this sensory activity we are waking up the mind by touching and manipulating squishy spaghetti! We are developing fine motor skills by using the tongs and working on our communication skills by working in a group.</p>
       </div>
-      <div class="col-10 offset-1">
+      <div class="col-10 offset-1 mt-5">
         <table class="table tableText">
           <thead>
             <tr>
@@ -158,16 +158,22 @@ export default {
 .daily-schedule {
   background-color: cornflowerblue;
   height: 100%;
+  background-image: url(../assets/stars.jpg);
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .dailyText {
   justify-content: center;
   align-self: center;
   color: white;
+  text-shadow: 1px 1px 2px #000000;
 }
 
 .tableText {
   color: white;
+  text-shadow: 1px 1px 2px #000000;
 }
 
 .littleOwl {

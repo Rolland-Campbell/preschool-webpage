@@ -46,7 +46,7 @@ export default {
 
 .about-carousel {
   border: 6px;
-  border-color: cornflowerblue;
+  border-color: pink;
   border-style: solid;
   border-radius: 20px;
 }

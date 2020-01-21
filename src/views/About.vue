@@ -107,7 +107,7 @@ export default {
 .about {
   background-color: cornflowerblue;
   height: 100%;
-  background-image: url(../assets/owlbackground.jpg);
+  background-image: url(../assets/flowerBackground.jpg);
   background-repeat: no-repeat;
   background-position: bottom;
   background-size: cover;
@@ -120,14 +120,14 @@ export default {
 }
 
 .aboutIntro {
-  background-color: cornflowerblue;
-  color: white;
+  background-color: pink;
+  color: black;
   border-radius: 20px;
   padding: 15px;
 }
 
 .linkColor {
-  color: white;
+  color: black;
 }
 
 .icons {
@@ -142,7 +142,11 @@ export default {
 .cardBorder {
   border: 10px;
   border-style: solid;
-  border-color: cornflowerblue;
+  border-color: pink;
   border-radius: 20px;
+}
+
+.btn-link{
+  color: black;
 }
 </style>

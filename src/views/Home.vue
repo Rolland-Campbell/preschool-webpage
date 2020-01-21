@@ -1,15 +1,15 @@
 <template>
   <div class="home container-fluid">
     <main class="row">
-      <div class="col-12 col-md-3 owlStyle">
-        <img src="../assets/redOwl2.png" alt="redowl" class="owlRed" />
+      <div class="col-md-3 owlStyle">
+        <img src="/site-pictures/redOwl2.png" alt="redowl" class="owlRed" />
       </div>
       <div class="col-12 col-md-6">
         <HomeCarousel />
       </div>
-      <div class="col-12 col-md-3"></div>
-      <div class="col-2"></div>
-      <div class="col-8 homeText mt-4 carouselIndex">
+      <div class="col-md-3"></div>
+      <div class="col-md-2"></div>
+      <div class="col-12 col-md-8 homeText mt-4 carouselIndex">
         <p>Our program is based on current research and imperically tested teaching practices in Reggio Emillia. This is a city in Italy well-known for it's revolutionary ideas on how to help children reach their maximum potential. We present an inquiry based and student led curriculum that exceeds current state and federal education standards.</p>
         <p>Our goal is to exceed your expectations with our superior approach to teaching while giving your child the opportunity to be extraordinary.</p>
         <p>We offer full day and half day classes for children aged 3 months - 5 years. Read About our available classes here.</p>
@@ -28,7 +28,7 @@
         <p>Monday-Friday 6:30am - 6:00 pm</p>
         <p>Yes! We accept ICCP</p>
       </div>
-      <div class="col-2 moveOwl">
+      <div class="col-md-2 moveOwl">
         <img src="../assets/littleowl.png" class="littleOwl" alt="owl" />
       </div>
       <div class="col-12 toe"></div>
@@ -51,7 +51,7 @@ export default {
 .home {
   background-color: cornflowerblue;
   height: 100%;
-  background-image: url(../assets/flowerBackground.jpg);
+  background-image: url(../assets/clouds.jpg);
   background-position: bottom;
   background-repeat: no-repeat;
   background-size: cover;
@@ -72,7 +72,7 @@ export default {
   justify-content: center;
   align-self: center;
   color: black;
-  background-color: cornflowerblue;
+  background-color: white;
   border-radius: 20px;
   padding: 20px;
 }
@@ -85,7 +85,7 @@ export default {
   margin-top: 100px;
   height: 200px;
   width: 200px;
-  transform: rotate(45deg);
+  transform: rotate(90deg);
 }
 
 .moveOwl {

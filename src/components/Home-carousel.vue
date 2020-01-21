@@ -46,7 +46,7 @@ export default {
 
 .home-carousel {
   border: 6px;
-  border-color: cornflowerblue;
+  border-color: white;
   border-style: solid;
   border-radius: 20px;
 }
