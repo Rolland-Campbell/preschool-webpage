@@ -106,7 +106,7 @@ export default {
 <style scoped>
 .about {
   background-color: cornflowerblue;
-  height: 100%;
+  min-height: 100vh;
   background-image: url(../assets/flowerBackground.jpg);
   background-repeat: no-repeat;
   background-position: bottom;

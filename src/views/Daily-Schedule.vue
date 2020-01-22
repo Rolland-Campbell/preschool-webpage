@@ -157,7 +157,7 @@ export default {
 <style scoped>
 .daily-schedule {
   background-color: cornflowerblue;
-  height: 100%;
+  min-height: 100vh;
   background-image: url(../assets/stars.jpg);
   background-position: bottom;
   background-repeat: no-repeat;

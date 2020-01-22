@@ -228,7 +228,7 @@ export default {
 <style scoped>
 .parentHandbook {
   background-color: cornflowerblue;
-  height: 100%;
+  min-height: 100vh;
   background-image: url(../assets/bubbles.jpg);
   background-position: center;
   background-repeat: no-repeat;

@@ -71,7 +71,7 @@ export default {
 <style scoped>
 .rates {
   background-color: white;
-  height: 100%;
+  min-height: 100vh;
 }
 
 .ratesText {

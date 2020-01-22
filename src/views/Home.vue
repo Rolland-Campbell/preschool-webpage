@@ -31,18 +31,23 @@
       <div class="col-md-2 moveOwl">
         <img src="../assets/littleowl.png" class="littleOwl" alt="owl" />
       </div>
-      <div class="col-12 toe"></div>
     </main>
+    <button class="btn m-2" data-toggle="modal" data-target="#admin-modal">
+      <b>*</b>
+    </button>
+    <AdminModal id="admin-modal" />
   </div>
 </template>
 
 <script>
 import HomeCarousel from "../components/Home-carousel";
+import AdminModal from "../components/Admin-Modal";
 
 export default {
   name: "home",
   components: {
-    HomeCarousel
+    HomeCarousel,
+    AdminModal
   }
 };
 </script>
@@ -50,7 +55,7 @@ export default {
 <style scoped>
 .home {
   background-color: cornflowerblue;
-  height: 100%;
+  min-height: 100vh;
   background-image: url(../assets/clouds.jpg);
   background-position: bottom;
   background-repeat: no-repeat;
@@ -91,9 +96,5 @@ export default {
 .moveOwl {
   margin-left: -90px;
   z-index: 0;
-}
-
-.toe {
-  height: 10vh;
 }
 </style>
