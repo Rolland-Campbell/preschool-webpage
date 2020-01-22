@@ -11,16 +11,26 @@ export default new Vuex.Store({
     websitePics: [],
     staffPics: [],
     admin: false,
-    password: "Treehouse1!"
+    path: "Treehouse1"
   },
   mutations: {
     setAdmin(state, password) {
-      if (password == state.password) { state.admin = true }
+      if (password == state.path) {
+        state.admin = true
+      }
     }
   },
   actions: {
     adminLogin({ commit }, password) {
       commit("setAdmin", password)
+    },
+
+    adminTimer() {
+      debugger
+      let count = 3000
+      for (let i = 0; i < count; i++) {
+        this.state.admin = true
+      } this.state.admin = false
     }
   },
   modules: {}

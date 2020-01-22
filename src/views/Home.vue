@@ -7,7 +7,9 @@
       <div class="col-12 col-md-6">
         <HomeCarousel />
       </div>
-      <div class="col-md-3"></div>
+      <div class="col-md-3 adminButton">
+        <button class="btn btn-warning" v-if="admin == true">Add a picture</button>
+      </div>
       <div class="col-md-2"></div>
       <div class="col-12 col-md-8 homeText mt-4 carouselIndex">
         <p>Our program is based on current research and imperically tested teaching practices in Reggio Emillia. This is a city in Italy well-known for it's revolutionary ideas on how to help children reach their maximum potential. We present an inquiry based and student led curriculum that exceeds current state and federal education standards.</p>
@@ -45,6 +47,11 @@ import AdminModal from "../components/Admin-Modal";
 
 export default {
   name: "home",
+  computed: {
+    admin() {
+      return this.$store.state.admin;
+    }
+  },
   components: {
     HomeCarousel,
     AdminModal
@@ -60,6 +67,12 @@ export default {
   background-position: bottom;
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+.adminButton {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .owlRed {

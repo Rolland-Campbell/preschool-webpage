@@ -5,8 +5,10 @@
         <h4 class="card-title text-center">Admin Login</h4>
         <form>
           <div class="form-group">
-            <label for="exampleInputName">Password Required</label>
-            <input type="text" class="form-control" id="password" v-model="password" />
+            <label for="path">Password Required</label>
+            <input type="text" class="form-control" id="path" v-model="path" />
+            <label class="mt-3" for="name">User</label>
+            <input type="text" class="form-control" id="name" v-model="name" />
           </div>
         </form>
       </div>
@@ -30,13 +32,20 @@ export default {
   props: ["id"],
   data() {
     return {
-      password: ""
+      name: "",
+      path: ""
     };
   },
   computed: {},
   methods: {
     adminLogin() {
-      this.$store.dispatch("adminLogin", this.password);
+      if (this.name == "Bud") {
+        this.$store.dispatch("adminLogin", this.path);
+      } else {
+        alert("Sorry wrong login");
+      }
+      this.name = "";
+      this.path = "";
     }
   },
   components: {}
