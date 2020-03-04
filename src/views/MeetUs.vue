@@ -8,7 +8,7 @@
             <div class="card mb-3">
               <div class="row no-gutters">
                 <div class="col-md-4">
-                  <img src="../assets/Tana.png" class="card-img" alt="owner pic" />
+                  <img src="../assets/tana2.jpg" class="card-img" alt="owner pic" />
                 </div>
                 <div class="col-md-8">
                   <div class="card-body">
@@ -30,7 +30,7 @@
             <div class="card mb-3">
               <div class="row no-gutters">
                 <div class="col-md-4">
-                  <img src="../assets/michelle.png" class="card-img" alt="owner pic" />
+                  <img src="../assets/michelle2.jpg" class="card-img" alt="owner pic" />
                 </div>
                 <div class="col-md-8">
                   <div class="card-body">
@@ -47,7 +47,7 @@
             <div class="card mb-3">
               <div class="row no-gutters">
                 <div class="col-md-4">
-                  <img src="../assets/Tari.png" class="card-img" alt="owner pic" />
+                  <img src="../assets/terri2.jpg" class="card-img" alt="owner pic" />
                 </div>
                 <div class="col-md-8">
                   <div class="card-body">
@@ -122,7 +122,7 @@
             <div class="card mb-3">
               <div class="row no-gutters">
                 <div class="col-md-4">
-                  <img src="../assets/teacherNone.png" class="card-img" alt="owner pic" />
+                  <img src="../assets/ashley2.jpg" class="card-img" alt="owner pic" />
                 </div>
                 <div class="col-md-8">
                   <div class="card-body">
@@ -137,7 +137,7 @@
             <div class="card mb-3">
               <div class="row no-gutters">
                 <div class="col-md-4">
-                  <img src="../assets/teacherNone.png" class="card-img" alt="owner pic" />
+                  <img src="../assets/Brittney2.jpg" class="card-img" alt="owner pic" />
                 </div>
                 <div class="col-md-8">
                   <div class="card-body">

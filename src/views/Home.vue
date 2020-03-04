@@ -2,7 +2,7 @@
   <div class="home container-fluid">
     <main class="row">
       <div class="col-md-3 owlStyle">
-        <img src="/site-pictures/redOwl2.png" alt="redowl" class="owlRed" />
+        <img src="../assets/redOwl2.png" alt="redowl" class="owlRed" />
       </div>
       <div class="col-12 col-md-6">
         <HomeCarousel />
@@ -34,9 +34,10 @@
         <img src="../assets/littleowl.png" class="littleOwl" alt="owl" />
       </div>
     </main>
-    <button class="btn m-2" data-toggle="modal" data-target="#admin-modal">
+    <!-- NOTE possible future content -->
+    <!-- <button class="btn m-2" data-toggle="modal" data-target="#admin-modal">
       <b>*</b>
-    </button>
+    </button>-->
     <AdminModal id="admin-modal" />
   </div>
 </template>
