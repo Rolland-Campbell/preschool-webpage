@@ -41,8 +41,8 @@
             data-parent="#accordion"
           >
             <div class="card-body">
-              <p>Our goal is to create open lines of communication right from the beginning. Please tell us everything you can think of that will help your child thrive at The TreeHouse. We want to hear your comments and concerns, and promise to use your thoughts to help us create a more perfect atmosphere for everyone at the center. Children 18 months and under will go home each day with a note outlining their day including daily activities, temperament, and food ins and outs. Parents may request this same type of note for children over 18 months. Teachers will try to relay the child’s high’s and low’s to the parent at pick up time.</p>
-              <p>Please let us know if there are major events occurring in the family, such as a sudden death in the family, divorce, or moving, as these events often result in a different temperament in your child. Sometimes this can be a very scary (or exciting) time for your child, our staff is trained in helping children express these emotions in socially acceptable ways without even mentioning the event.</p>
+              <p>Our goal is to create open lines of communication right from the beginning. Please tell us everything you can think of that will help your child thrive at The TreeHouse. We want to hear your comments and concerns, and promise to use your thoughts to help us create a more perfect atmosphere for everyone at the center. Children 12 months and under will go home each day with a note outlining their day including daily activities, temperament, and food ins and outs.</p>
+              <p>Please let us know if there are major events occurring in the family, such as a sudden death in the family, divorce, or moving, as these events often result in a different temperament in your child. Sometimes this can be a very scary (or exciting) time for your child; our staff is trained in helping children express these emotions in socially acceptable ways without even mentioning the event.</p>
             </div>
           </div>
         </div>
@@ -68,7 +68,7 @@
             data-parent="#accordion"
           >
             <div class="card-body">
-              <p>Please check your child in and out at the computer each day and then make sure that your child’s teacher is aware of their arrival. Please notify us each time someone other than the child’s legal guardians will be picking them up. If we do not have prior notification we will not release the child to them. Remind that person to bring identification with them.</p>
+              <p>Please check your child in and out at the computer each day and then make sure that your child’s teacher is aware of their arrival. Please notify us each time someone other than the child’s legal guardians will be picking them up. If we do not have prior notification, we will not release the child to them. Remind that person to bring identification with them.</p>
             </div>
           </div>
         </div>
@@ -94,10 +94,11 @@
             data-parent="#accordion"
           >
             <div class="card-body">
-              <p>Tuition is due by the 10th of the month.</p>
-              <p>A $10 late fee will be added if we do not receive a payment by the 11th.</p>
-              <p>If we do not receive your payment by the last day of the month you will need to make other child care arrangements until your account is paid in full.</p>
-              <p>A $20 fee will be added to your account if a check is returned unpaid.</p>
+              <p>Tuition will be billed every two weeks on Monday. Payment is due on or before the Monday that the billing is processed. You may pay for more than two weeks at a time, or you may sign up for Automatic Withdrawal to make paying on time easier. A $10 late charge will be added to your bill if your payment is not made on time. You will be required to sign up for Auto Pay if you are late with your payment 3 times in one year.</p>
+              <router-link to="/rates" class="linkColor">
+                Here is a link to the current
+                <u>Rates</u>
+              </router-link>
             </div>
           </div>
         </div>
@@ -112,7 +113,7 @@
           >
             <h5 class="mb-0">
               <button class="btn btn-link collapsed">
-                <h4 class="heading">Discipline Policy - Positive Behavior System (PBS):</h4>
+                <h4 class="heading">Positive Behavior System (PBS):</h4>
               </button>
             </h5>
           </div>
@@ -144,7 +145,7 @@
                 <li>Diarrhea</li>
                 <li>Vomiting 2 or more times within a 24 hour period. (Please do not bring your child to the center if they have vomited during the night.)</li>
               </dl>
-              <p>We make every effort to keep all of our surfaces sanitized and sterile and we have a regular routine for washing hands and keeping noses clean. You can help us keep illnesses out of the TreeHouse too by not bringing your child to the center when they are sick.</p>
+              <p>We make every effort to keep all of our surfaces cleaned and sanitized and we have a regular routine for washing hands and keeping noses clean. You can help us keep illnesses out of the TreeHouse too by not bringing your child to the center when they are sick.</p>
               <p>Please inform us in writing of any medication that the child needs to take during the day. Forms will be available at the front desk. Please give the note and medication to a staff member, do not leave it in the child’s bag or backpack.</p>
             </div>
           </div>
@@ -167,6 +168,8 @@
           <div id="collapseSix" class="collapse">
             <div class="card-body">
               <p>We offer breakfast, lunch and two snacks during the day.</p>
+              <p>Breakfast will be served between 8am and 9am.</p>
+              <p>We will let you know if your child doesn’t eat a specified food particularly well, you may send something from home for them to eat on those days. If your child has a lot of dietary restrictions we’ll need you to bring a lunch and snack for them daily.</p>
             </div>
           </div>
         </div>
@@ -193,7 +196,7 @@
           </div>
         </div>
         <!-- new card -->
-        <div class="card mt-2 mb-5">
+        <div class="card mt-2">
           <div
             class="card-header"
             id="headingEight"
@@ -210,6 +213,57 @@
             <div class="card-body">
               <p>Please label all personal belongings including jackets, gloves, and hats. We ask that your child not bring toys or special items to school due to the fact that the child often feels territorial over them and to keep them from getting lost or broken. Your teacher will notify you about special share days.</p>
               <p>Please label all bottles, milk, sippy cups, and extra clothing.</p>
+            </div>
+          </div>
+        </div>
+        <!-- new card -->
+
+        <div class="card mt-2">
+          <div
+            class="card-header"
+            id="headingNine"
+            data-toggle="collapse"
+            data-target="#collapseNine"
+          >
+            <h5 class="mb-0">
+              <button class="btn btn-link collapsed">
+                <h4 class="heading">Infants and Toddlers:</h4>
+              </button>
+            </h5>
+          </div>
+          <div id="collapseNine" class="collapse">
+            <div class="card-body text-left">
+              <dt>Please bring</dt>
+              <li>Large sleeve of diapers (you will be notified when the diapers are running low)</li>
+              <li>Several changes of clothing</li>
+              <li>Bottle and/or sippy cup that can stay at the center</li>
+              <li>Diaper rash cream</li>
+              <li>Blanket that can stay all week, we will send it home on Friday</li>
+              <br />
+              <p
+                class="text-center"
+              >You do not need to bring a diaper bag each day since we will have everything we need stored at the center.</p>
+            </div>
+          </div>
+        </div>
+        <!-- new card -->
+
+        <div class="card mt-2 mb-5">
+          <div
+            class="card-header"
+            id="headingTen"
+            data-toggle="collapse"
+            data-target="#collapseTen"
+          >
+            <h5 class="mb-0">
+              <button class="btn btn-link collapsed">
+                <h4 class="heading">Field Trips:</h4>
+              </button>
+            </h5>
+          </div>
+          <div id="collapseTen" class="collapse">
+            <div class="card-body">
+              <p>Students going into Kindergarten through the 4th grade may participate in summer field trips. A calendar of summer events with pricing for each trip will be provided in May.</p>
             </div>
           </div>
         </div>

@@ -12,6 +12,10 @@
         </p>
         <p>Our classes are full of acedemic and engaging activities Monday through Friday. We offer a full-day, year round preschool program. Our curriculum focuses on state education standards from 9 am- 12 pm in order to ensure success for students who only participate in the half day program.</p>
         <p>Parents who only need part-time care or wish only to participate in the half-day preschool program may choose the days of the week that work best for their family (please call to reserve your days). Our preschool and pre-K classes run year round, 5-days each week.</p>
+        <p>
+          <!-- FIXME get with Tana on rates page. To decipher the handbook. -->
+          <b>Weekly Rates</b> We require a minimum of three days per week (they must be the same 3 days)
+        </p>
       </div>
     </div>
     <div class="row">
@@ -26,6 +30,12 @@
             </tr>
           </thead>
           <tbody>
+            <tr>
+              <th scope="row">Infant - 17 months</th>
+              <td>5 Days $160</td>
+              <td>$25 / day</td>
+              <td>$15 / day</td>
+            </tr>
             <tr>
               <th scope="row">Sprouts</th>
               <td>$500 / month</td>
