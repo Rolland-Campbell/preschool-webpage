@@ -38,6 +38,7 @@
     <!-- <button class="btn m-2" data-toggle="modal" data-target="#admin-modal">
       <b>*</b>
     </button>-->
+    <!-- NOTE not using -->
     <AdminModal id="admin-modal" />
   </div>
 </template>
