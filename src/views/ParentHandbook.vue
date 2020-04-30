@@ -265,12 +265,13 @@
 
   .handbookText {
     margin-top: 3vh;
+    padding-top: 2vh;
+    margin-left: 1vw;
     background-color: white;
     border-radius: 20px;
     justify-content: center;
     align-self: center;
     color: black;
-    padding-top: 10px;
   }
 
   @media only screen and (max-width: 600px) {
