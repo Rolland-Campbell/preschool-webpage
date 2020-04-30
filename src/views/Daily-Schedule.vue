@@ -3,15 +3,17 @@
     <main class="row">
       <div class="col-md-3"></div>
       <div class="col-12 col-md-6 carouselIndex">
-        <DailyScheduleCarousel />
+        <DailyScheduleCarousel class="dailyScheduleCarousel" />
       </div>
       <div class="col-md-3 moveOwl">
         <img src="../assets/littleowl.png" class="littleOwl" alt="owl" />
       </div>
       <div class="col-8 offset-2 dailyText mt-5">
-        <p>We use a play based curriculum that focuses on each students needs and developmental abilities. In this sensory activity we are waking up the mind by touching and manipulating squishy spaghetti! We are developing fine motor skills by using the tongs and working on our communication skills by working in a group.</p>
+        <p>We use a play based curriculum that focuses on each students needs and developmental abilities. In this
+          sensory activity we are waking up the mind by touching and manipulating squishy spaghetti! We are developing
+          fine motor skills by using the tongs and working on our communication skills by working in a group.</p>
       </div>
-      <div class="col-10 offset-1 mt-5">
+      <div class="col-12 col-md-10 offset-md-1 mt-5">
         <table class="table tableText">
           <thead>
             <tr>
@@ -144,51 +146,71 @@
 </template>
 
 <script>
-import DailyScheduleCarousel from "../components/Daily-schedule-carousel";
+  import DailyScheduleCarousel from "../components/Daily-schedule-carousel";
 
-export default {
-  name: "daily-schedule",
-  components: {
-    DailyScheduleCarousel
-  }
-};
+  export default {
+    name: "daily-schedule",
+    components: {
+      DailyScheduleCarousel
+    }
+  };
 </script>
 
 <style scoped>
-.daily-schedule {
-  background-color: cornflowerblue;
-  min-height: 100vh;
-  background-image: url(../assets/stars.jpg);
-  background-position: bottom;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
+  .daily-schedule {
+    background-color: darkcyan;
+    min-height: 100vh;
+    background-image: url(../assets/stars.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
 
-.dailyText {
-  justify-content: center;
-  align-self: center;
-  color: white;
-  text-shadow: 1px 1px 2px #000000;
-}
+  @media only screen and (max-width: 600px) {
+    .daily-schedule {
+      background-image: none;
+      text-align: center;
+      min-height: 100vh;
+      background-image: url(../assets/clouds.jpg);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+  }
 
-.tableText {
-  color: white;
-  text-shadow: 1px 1px 2px #000000;
-}
+  .dailyText {
+    justify-content: center;
+    align-self: center;
+    color: white;
+    text-shadow: 1px 1px 2px black;
+  }
 
-.littleOwl {
-  margin-top: 100px;
-  height: 200px;
-  width: 200px;
-  transform: rotate(45deg);
-}
+  @media only screen and (max-width: 600px) {
 
-.moveOwl {
-  margin-left: -70px;
-  z-index: 0;
-}
+    .dailyScheduleCarousel,
+    .littleOwl {
+      display: none;
+    }
+  }
 
-.carouselIndex {
-  z-index: 1;
-}
+  .tableText {
+    color: white;
+    text-shadow: 1px 1px 2px #000000;
+  }
+
+  .littleOwl {
+    margin-top: 100px;
+    height: 200px;
+    width: 200px;
+    transform: rotate(45deg);
+  }
+
+  .moveOwl {
+    margin-left: -70px;
+    z-index: 0;
+  }
+
+  .carouselIndex {
+    z-index: 1;
+  }
 </style>

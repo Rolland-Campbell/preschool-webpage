@@ -46,6 +46,10 @@
 </script>
 
 <style>
+  .app {
+    min-height: 100vh;
+  }
+
   .navbar-nav>a {
     padding: 20px;
     color: black;
